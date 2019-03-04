@@ -12750,7 +12750,7 @@ button.bg-lighter:focus
 
 .bg-gradient-primary
 {
-    background: linear-gradient(80deg, #510fa8 0, #320fa8 100%) !important;
+    background: linear-gradient(80deg, #ffbbb1 0, #ffd1cc 100%) !important;
 }
 
 .bg-gradient-secondary
@@ -16662,7 +16662,7 @@ footer
 
 .footer-dark .heading
 {
-    color: white;
+    color: #464855!important;
 }
 
 .footer-dark .list-unstyled li a
@@ -16724,7 +16724,7 @@ footer
 .footer-dark .list-unstyled li a,
 .footer-dark .footer-link
 {
-    color: #adb5bd;
+    color: #5E5857;
 }
 .footer-dark .nav .nav-item .nav-link:hover,
 .footer-dark .list-unstyled li a:hover,
