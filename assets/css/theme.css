@@ -94,7 +94,7 @@ body
 
     text-align: left;
 
-    color: #6c7686;
+    color: #464855;
     background-color: #fff;
 }
 
@@ -221,7 +221,7 @@ a
 {
     text-decoration: none;
 
-    color: #510fa8;
+    color: #464855;
     background-color: transparent;
 
     -webkit-text-decoration-skip: objects;
@@ -230,7 +230,7 @@ a:hover
 {
     text-decoration: none; 
 
-    color: #2f0962;
+    color: #ffbbb1;
 }
 
 a:not([href]):not([tabindex])
@@ -2319,8 +2319,8 @@ pre code
 }
 .form-control:focus
 {
-    color: #495057;
-    border-color: rgba(81, 15, 168, .5);
+    color: #ffbbb1;
+    border-color: #ffbbb1;
     outline: 0;
     background-color: #fff;
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 20px rgba(81, 15, 168, .1);
@@ -2929,16 +2929,17 @@ fieldset:disabled a.btn
 
 .btn-primary
 {
-    color: #fff;
-    border-color: #510fa8;
-    background-color: #510fa8;
+    color: #464855;
+    border-color: #ffbbb1;
+    background-color: #ffbbb1;
     box-shadow: none;
+    border-radius: 0px;
 }
 .btn-primary:hover
 {
-    color: #fff;
-    border-color: #3a0b79; 
-    background-color: #400c85;
+    color: #464855;
+    border-color: #ffbbb1; 
+    background-color: white;
 }
 .btn-primary:focus,
 .btn-primary.focus
@@ -12268,7 +12269,6 @@ figure,
 main
 {
     display: block;
-
     margin: 0;
 }
 
@@ -13541,87 +13541,87 @@ button.bg-lighter:focus
 
 .shape-fill-blue
 {
-    fill: #007aff !important;
+    fill: #ffbbb1 !important;
 }
 
 .shape-stroke-blue
 {
-    stroke: #007aff !important;
+    stroke: #ffbbb1 !important;
 }
 
 .shape-fill-indigo
 {
-    fill: #5603ad !important;
+    fill: #ffbbb1 !important;
 }
 
 .shape-stroke-indigo
 {
-    stroke: #5603ad !important;
+    stroke: #ffbbb1 !important;
 }
 
 .shape-fill-purple
 {
-    fill: #510fa8 !important;
+    fill: #ffbbb1 !important;
 }
 
 .shape-stroke-purple
 {
-    stroke: #510fa8 !important;
+    stroke: #ffbbb1 !important;
 }
 
 .shape-fill-pink
 {
-    fill: #f074ad !important;
+    fill: #ffbbb1 !important;
 }
 
 .shape-stroke-pink
 {
-    stroke: #f074ad !important;
+    stroke: #ffbbb1 !important;
 }
 
 .shape-fill-red
 {
-    fill: #ff3b30 !important;
+    fill: #ffbbb1 !important;
 }
 
 .shape-stroke-red
 {
-    stroke: #ff3b30 !important;
+    stroke: #ffbbb1 !important;
 }
 
 .shape-fill-orange
 {
-    fill: #ff9500 !important;
+    fill: #ffbbb1 !important;
 }
 
 .shape-stroke-orange
 {
-    stroke: #ff9500 !important;
+    stroke: #ffbbb1 !important;
 }
 
 .shape-fill-yellow
 {
-    fill: #fc0 !important;
+    fill: #ffbbb1 !important;
 }
 
 .shape-stroke-yellow
 {
-    stroke: #fc0 !important;
+    stroke: #ffbbb1 !important;
 }
 
 .shape-fill-green
 {
-    fill: #4cd964 !important;
+    fill: #ffbbb1 !important;
 }
 
 .shape-stroke-green
 {
-    stroke: #4cd964 !important;
+    stroke: #ffbbb1 !important;
 }
 
 .shape-fill-teal
 {
-    fill: #24b7fa !important;
+    fill: #ffbbb1 !important;
 }
 
 .shape-stroke-teal
@@ -13661,7 +13661,7 @@ button.bg-lighter:focus
 
 .shape-fill-gray-dark
 {
-    fill: #343a40 !important;
+    fill: #ffbbb1 !important;
 }
 
 .shape-stroke-gray-dark
@@ -17438,9 +17438,9 @@ Styled shaped wrappers for displaying code and images in a more stylish manner
 
 .input-group-transparent .input-group-text
 {
-    color: #adb5bd;
+    /*color: #adb5bd;
     border: .0625rem solid #ced4da; 
-    background-color: transparent;
+    background-color: transparent;*/
 }
 
 .input-group-transparent .form-control
@@ -19172,6 +19172,7 @@ section
 {
     padding-top: 8rem;
     padding-bottom: 8rem;
+    padding: 0;
 }
 
 .slice-lg
