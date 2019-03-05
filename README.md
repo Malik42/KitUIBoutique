@@ -1,3 +1,3 @@
 # KitUIBoutique
 
-file:///home/malik/Programmation/Formation/KitUIBoutique/index.html
+https://home/malik/Programmation/Formation/KitUIBoutique/index.html
