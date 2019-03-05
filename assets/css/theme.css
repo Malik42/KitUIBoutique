@@ -3721,7 +3721,7 @@ fieldset:disabled a.btn
 {
     font-weight: 400;
 
-    color: #510fa8;
+    color: #464855;
     background-color: transparent;
 }
 .btn-link:hover
@@ -4271,6 +4271,7 @@ input[type='button'].btn-block
 
     flex-wrap: wrap;
     align-items: stretch;
+    justify-content: center;
 }
 .input-group > .form-control,
 .input-group > .custom-select,
@@ -12778,7 +12779,7 @@ button.bg-lighter:focus
 
 .bg-gradient-warning
 {
-    background: linear-gradient(80deg, #ff9500 0, #ff6200 100%) !important;
+    background: linear-gradient(80deg, #ffbbb1 0, #ffe3e0 100%) !important;
 }
 
 .bg-gradient-danger
