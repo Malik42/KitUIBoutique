@@ -12275,6 +12275,7 @@ main
 main
 {
     position: relative;
+    margin-top: 5rem;
 }
 
 .body-backdrop
@@ -16698,8 +16699,8 @@ footer
 
     overflow: hidden; 
 
-    margin-top: -26rem;
-    padding-top: 26rem;
+    /*margin-top: -26rem;*/
+    padding-top: 14rem;
 }
 .footer-rotate:before
 {
