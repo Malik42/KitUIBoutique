@@ -1,3 +1,3 @@
 # KitUIBoutique
 
-https://home/malik/Programmation/Formation/KitUIBoutique/index.html
+https://malik42.github.io/KitUIBoutique/
